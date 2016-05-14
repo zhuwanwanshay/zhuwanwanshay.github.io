@@ -1,0 +1,314 @@
+
+*{margin: 0; padding: 0;}
+
+.container{ 
+	width: 900px;
+	height: 550px;
+	background-image: url(../images/table.jpg);
+	background-clip: content-box;
+	background-repeat: no-repeat;
+	margin: 50px auto;
+	position: relative;
+}
+#banker{ 
+	width: 90%;
+	height: 250px;
+	position: absolute;
+	left: 10%;
+	top: 15px;
+	color: #ece819;
+	font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+	font-size: 1.5em;
+}
+#b_cardArea{ 
+	width: 100%;
+	height: 153px;
+	position: absolute;
+	top: 20%;
+}
+#player{ 
+	width: 90%;
+	height: 250px;
+	position: absolute;
+	top: 250px;
+	left: 10%;
+	color: #ece819;
+	font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+	font-size: 1.5em;
+}
+#p_cardArea{ 
+	width: 100%;
+	height: 153px;
+	position: absolute;
+	top: 15%;
+}
+.btn{ 
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+.playCard{
+	display: inline-block;
+	width: 114px;
+	height: 153px;
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	border: 1px solid #aaa;
+} 
+.btn input,#content input{ 
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	border: 1px solid #a8641b;
+	border-radius: 8px;
+	background-color: #f1ed74;
+	font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+	font-size: 0.8em;
+	font-weight: bold; 
+}
+/*弹窗*/
+#popup {
+    height: 250px;
+    width: 450px;
+    border: 5px solid #999;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 50;
+    display: none;
+    position: relative;
+    background-color: #cde7f6;
+    top: 90px;
+    text-align: center;
+    font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 200px; 
+}
+#popup #content {
+	width: 100%;
+	height: 50px;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.5em;
+    line-height: 50px; 
+}
+#content input{ 
+	margin: 0 20px;
+}
+/*牌背*/
+.playCard0{ 
+	background-position: -791px -8px;
+}
+/*红桃A*/
+.playCard11{ 
+	background-position: -455px -622px;
+}
+/*红桃2*/
+.playCard12{ 
+	background-position: -569px -622px;
+}
+/*红桃3*/
+.playCard13{ 
+	background-position: -679px -622px;
+}
+/*红桃4*/
+.playCard14{ 
+	background-position: -789px -622px;
+}
+/*红桃5*/
+.playCard15{ 
+	background-position: -903px -622px;
+}
+/*红桃6*/
+.playCard16{ 
+	background-position: -11px -469px;
+}
+/*红桃7*/
+.playCard17{ 
+	background-position: -120px -469px;
+}
+/*红桃8*/
+.playCard18{ 
+	background-position: -231px -469px;
+}
+/*红桃9*/
+.playCard19{ 
+	background-position: -342px -469px;
+}
+/*红桃10*/
+.playCard110{ 
+	background-position: -455px -469px;
+}
+/*红桃J*/
+.playCard111{ 
+	background-position: -569px -469px;
+}
+/*红桃Q*/
+.playCard112{ 
+	background-position: -679px -469px;
+}
+/*红桃K*/
+.playCard113{ 
+	background-position: -789px -469px;
+}
+
+/*方片A*/
+.playCard21{ 
+	background-position: -11px -775px;
+}
+/*方片2*/
+.playCard22{ 
+	background-position: -120px -775px;
+}
+/*方片3*/
+.playCard23{ 
+	background-position: -231px -775px;
+}
+/*方片4*/
+.playCard24{ 
+	background-position: -342px -775px;
+}
+/*方片5*/
+.playCard25{ 
+	background-position: -455px -775px;
+}
+/*方片6*/
+.playCard26{ 
+	background-position: -569px -775px;
+}
+/*方片7*/
+.playCard27{ 
+	background-position: -679px -775px;
+}
+/*方片8*/
+.playCard28{ 
+	background-position: -789px -775px;
+}
+/*方片9*/
+.playCard29{ 
+	background-position: -903px -775px;
+}
+/*方片10*/
+.playCard210{ 
+	background-position: -11px -622px;
+}
+/*方片J*/
+.playCard211{ 
+	background-position: -120px -622px;
+}
+/*方片Q*/
+.playCard212{ 
+	background-position: -231px -622px;
+}
+/*方片K*/
+.playCard213{ 
+	background-position: -342px -622px;
+}
+
+
+
+/*黑桃A*/
+.playCard31{ 
+	background-position: -903px -469px;
+}
+/*黑桃2*/
+.playCard32{ 
+	background-position: -11px -316px;
+}
+/*黑桃3*/
+.playCard33{ 
+	background-position: -120px -316px;
+}
+/*黑桃4*/
+.playCard34{ 
+	background-position: -231px -316px;
+}
+/*黑桃5*/
+.playCard35{ 
+	background-position: -342px -316px;
+}
+/*黑桃6*/
+.playCard36{ 
+	background-position: -455px -316px;
+}
+/*黑桃7*/
+.playCard37{ 
+	background-position: -569px -316px;
+}
+/*黑桃8*/
+.playCard38{ 
+	background-position: -679px -316px;
+}
+/*黑桃9*/
+.playCard39{ 
+	background-position: -789px -316px;
+}
+/*黑桃10*/
+.playCard310{ 
+	background-position: -903px -316px;
+}
+/*黑桃J*/
+.playCard311{ 
+	background-position: -11px -163px;
+}
+/*黑桃Q*/
+.playCard312{ 
+	background-position: -120px -163px;
+}
+/*黑桃K*/
+.playCard313{ 
+	background-position: -231px -163px;
+}
+
+/*梅花A*/
+.playCard41{ 
+	background-position: -342px -163px;
+}
+/*梅花2*/
+.playCard42{ 
+	background-position: -455px -163px;
+}
+/*梅花3*/
+.playCard43{ 
+	background-position: -569px -163px;
+}
+/*梅花4*/
+.playCard44{ 
+	background-position: -679px -163px;
+}
+/*梅花5*/
+.playCard45{ 
+	background-position: -789px -163px;
+}
+/*梅花6*/
+.playCard46{ 
+	background-position: -903px -163px;
+}
+/*梅花7*/
+.playCard47{ 
+	background-position: -11px -10px;
+}
+/*梅花8*/
+.playCard48{ 
+	background-position: -120px -10px;
+}
+/*梅花9*/
+.playCard49{ 
+	background-position: -231px -10px;
+}
+/*梅花10*/
+.playCard410{ 
+	background-position: -342px -10px;
+}
+/*梅花J*/
+.playCard411{ 
+	background-position: -455px -10px;
+}
+/*梅花Q*/
+.playCard412{ 
+	background-position: -569px -10px;
+}
+/*梅花K*/
+.playCard413{ 
+	background-position: -679px -10px;
+}

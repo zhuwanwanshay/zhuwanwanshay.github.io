@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<title>21点</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bg.css">
+</head>
+<body>
+	<div class="container">
+		<form>
+			<!--弹框-->
+			<div id="popup">
+				<span></span>
+				<div id="content">
+					<input type="button" id="deal" onclick="Deal(this.form);Close(this.form)" value="NEW GAME " />
+					<input type="button" id="close" onclick="Close(this.form)" value="CLOSE" />
+				</div>
+			</div>
+			<!--庄家start-->
+			<div id="banker">
+				庄家点数：<span id="b_score"></span>
+				<ul id="b_cardArea"></ul>
+			</div>
+			<!--庄家end-->
+			<!--玩家start-->
+			<div id="player">
+				<ul id="p_cardArea"></ul>
+				<div class="btn">
+					<input type="button" id="deal" onclick="Deal(this.form)" value="DEAL" />
+					<input type="button" id="hit" onclick="Hit(this.form)"  value="HIT" />
+					<input type="button" id="stand" onclick="Stand(this.form)"  value="STAND" />
+					<!-- <input type="button" onclick="Double(this.form)" name="double" value="DOUBLE" />
+					<input type="button" onclick="Split(this.form)" name="split" value="SPLIT" /> -->
+				</div>
+				<div style="position: absolute; bottom:15px;">玩家点数：<span id="p_score"></span></div>
+			</div>
+			<!--玩家end-->
+		</form>
+	</div>
+	<script src="assets/js/blackjack.js" type="text/javascript" ></script>
+</body>
+</html>
